@@ -4,19 +4,15 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 
 function Navbar() {
-  const [click, setClick] = useState(false);
-
   return (
     <header className="w-full h-24 bg-dark-grey">
-      <nav className="max-w-7xl h-full py-0 px-4 m-auto flex justify-between">
+      <nav className="max-w-7xl h-full py-0 px-4 m-auto flex justify-between overflow-hidden">
         <div className="flex items-center">
           <Link to="/">
             <img className="w-20 h-auto" src={Logo} alt="" />
           </Link>
         </div>
-        <ul
-          className={click ? "nav-menu active" : "flex absolute top-8 right-4"}
-        >
+        <ul className="flex items-center justify-self-start">
           <li className="py-0 px-6">
             <Link to="/" className="text-white">
               Anasayfa
@@ -38,7 +34,6 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-        <div></div>
       </nav>
     </header>
   );
