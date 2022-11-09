@@ -19,17 +19,17 @@ function Navbar() {
             </Link>
           </li>
           <li className="py-0 px-6">
-            <Link to="pricing" className="text-white">
+            <Link to="/pricing" className="text-white">
               Fiyatlar
             </Link>
           </li>
           <li className="py-0 px-6">
-            <Link to="faq" className="text-white">
+            <Link to="/faq" className="text-white">
               S.S.S
             </Link>
           </li>
           <li className="py-0 px-6">
-            <Link to="contact" className="text-white">
+            <Link to="/contact" className="text-white">
               İletişim
             </Link>
           </li>

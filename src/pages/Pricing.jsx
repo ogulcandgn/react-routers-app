@@ -1,7 +1,16 @@
 import React from "react";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import Price from "../components/Pricing";
 
-function Pricing() {
-  return <div></div>;
-}
+const Pricing = () => {
+  return (
+    <>
+      <Navbar />
+      <Price />
+      <Footer />
+    </>
+  );
+};
 
 export default Pricing;
