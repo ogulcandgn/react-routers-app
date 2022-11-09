@@ -29,25 +29,25 @@ function Content() {
               <p className="text-text-light-grey mt-8 mr-0 mb-4 ml-0">
                 USED BY
               </p>
-              <div>
-                <i className="text-text-grey">
+              <div className="flex">
+                <i className="text-text-grey mr-4">
                   <FaDatabase /> Staxx
                 </i>
-                <i className="text-text-grey">
+                <i className="text-text-grey mr-4">
                   <FaAsterisk /> Star AI
                 </i>
-                <i className="text-text-grey">
+                <i className="text-text-grey mr-4">
                   <FaAccusoft /> Accusoft
                 </i>
               </div>
             </div>
           </div>
-          <div className="p-8 h-3/4 flex flex-col justify-center text-md">
+          <div className="p-8 h-3/4 flex flex-col justify-center text-md my-8">
             <div className="w-96 m-auto bg-white rounded-md">
-              <div className="py-6 px-8">
+              <div className="py-6 px-8 text-center">
                 <p className="mb-2.5 text-text-grey">Sign in with</p>
-                <div>
-                  <i className="rounded-md border-solid border-text-grey">
+                <div className="flex justify-center align-center mb-4">
+                  <i className="rounded-md border-solid border-text-grey mr-2">
                     <FaFacebook
                       className="rounded-md border-solid border-text-grey"
                       size={20}
@@ -61,7 +61,7 @@ function Content() {
                   </i>
                   <i>
                     <FaGithub
-                      className="rounded-md border-solid border-text-grey"
+                      className="rounded-md border-solid border-text-grey ml-2"
                       size={20}
                     />
                   </i>
